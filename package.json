@@ -1,0 +1,24 @@
+{
+  "name": "gulp-clean-dest",
+  "version": "0.1.0",
+  "description": "A gulp plugin for removing files from the dest directory prior to building",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/clark800/gulp-clean-dest.git"
+  },
+  "main": "cleandest.js",
+  "keywords": [
+    "gulp",
+    "gulpplugin",
+    "delete",
+    "clean",
+    "remove",
+    "dest"
+  ],
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "dependencies": {
+    "through2": "~0.6.3"
+  }
+}
