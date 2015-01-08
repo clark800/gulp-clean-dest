@@ -3,6 +3,10 @@ gulp-clean-dest
 
 A gulp plugin for removing files from the dest directory prior to building.
 
+### Installation
+
+    npm install --save-dev gulp-clean-dest
+
 ### Example Use Case
 
 Say you have a "src" directory containing javascript source files with Flow type annotations and a gulp watch task that strips the type annotations and puts the resulting javasript files in the "out" directory.
