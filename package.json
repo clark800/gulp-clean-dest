@@ -20,5 +20,6 @@
   },
   "dependencies": {
     "through2": "~0.6.3"
-  }
+  },
+  "license": "WTFPL"
 }
