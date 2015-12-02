@@ -1,6 +1,8 @@
 {
   "name": "gulp-clean-dest",
-  "version": "0.1.0",
+  "version": "0.1.1",
+  "license": "MIT",
+  "author": "Chris Clark (http://cclark.me)",
   "description": "A gulp plugin for removing files from the dest directory prior to building",
   "repository": {
     "type": "git",
