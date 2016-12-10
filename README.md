@@ -29,3 +29,40 @@ Using this plugin, you can ensure that the "out" directory won't contain code th
         .pipe(react({ stripTypes: true }))
         .pipe(gulp.dest('out'));
     });
+
+
+## API
+
+### cleanDest(destination, options)
+
+#### destination
+
+Type: `string`, `function`
+
+The destination directory. Same as you put into `gulp.dest()`.
+
+#### options
+
+##### cwd
+
+Type: `string`
+Default: `process.cwd()`
+
+The working directory the folder is relative to.
+
+##### extension
+
+Type: `string`
+
+Extension of the destination files.
+
+Useful if it differs from the original, like in the example below:
+
+```js
+gulp.task('jade', () => {
+    return gulp.src('src/**/*.jade')
+        .pipe(cleanDest('app', {extension: '.html'}))
+        .pipe(jade())
+        .pipe(gulp.dest('app'))
+});
+```
