@@ -23,5 +23,6 @@
   "dependencies": {
     "replace-ext": "~1.0.0",
     "through2": "~0.6.3"
-  }
+  },
+  "license": "WTFPL"
 }
